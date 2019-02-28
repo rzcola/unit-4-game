@@ -1,12 +1,20 @@
 body{
-    background-color: darkgreen;
+    background-color: olivedrab;
     text-align: center;
 }
-
+h1{
+    color:  white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
 p{
     color: white;
     font-family: 'Courier New', Courier, monospace;
-     font-size: 30px;
+     font-size: 25px;
      
 }
 

@@ -8,20 +8,15 @@ var random;
 
 $(document).ready(function(){
 
-//     var random = Math.floor(Math.random() * 73) +1;
-// $('#randomNumber').text(random);
-//  $('#numberWins').text(homeRuns);
-//   $('#numberLosses').text(strikeOuts);
-
-//creating a function called reset//
+// creating a function called reset//
   function reset() {
-        random = Math.floor(Math.random() * 73) +1;
+        random = Math.floor(Math.random() * 72) + 1;
         console.log("random = ", random)
         $("#random-Number").html("Home Runs to win:" + random);
-        baseballP1 = Math.floor(Math.random() * 3 ) + 1;
-        baseballP2 = Math.floor(Math.random() * 3 ) + 1;
-        baseballP3 = Math.floor(Math.random() * 3 ) + 1;
-        baseballP4 = Math.floor(Math.random() * 3 ) + 1;
+        baseballP1 = Math.floor(Math.random() * 4) + 1;
+        baseballP2 = Math.floor(Math.random() * 4) + 1;
+        baseballP3 = Math.floor(Math.random() * 4) + 1;
+        baseballP4 = Math.floor(Math.random() * 4) + 1;
         userTotal= 0;
         $('#total-homeruns').html("Home Runs Hit:" + userTotal);
         } 
@@ -57,7 +52,6 @@ $(document).ready(function(){
 
   }
   
-
     $('#bonds').on ('click', function(){
      totalHruns(baseballP1);   
     })  
